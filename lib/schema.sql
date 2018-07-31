@@ -21,5 +21,6 @@ CREATE TABLE subgenres (
 );
 
 CREATE TABLE characters_books (
+  id INTEGER PRIMARY KEY,
   
 );
