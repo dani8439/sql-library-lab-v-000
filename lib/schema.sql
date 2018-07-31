@@ -1,8 +1,8 @@
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
   name TEXT,
-  species TEXT,
   motto TEXT,
+  species TEXT,
   author_id INTEGER,
   series_id INTEGER,
 );
@@ -33,5 +33,5 @@ CREATE TABLE subgenres (
 CREATE TABLE characters_books (
   id INTEGER PRIMARY KEY,
   author_id INTEGER,
-  
+
 );
