@@ -31,12 +31,6 @@ CREATE TABLE characters (
   series_id INTEGER,
 );
 
-
-
-
-
-
-
 CREATE TABLE characters_books (
   id INTEGER PRIMARY KEY,
   book_id INTEGER,
