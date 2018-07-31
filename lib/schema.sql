@@ -19,3 +19,7 @@ CREATE TABLE authors (
 CREATE TABLE subgenres (
   id INTEGER PRIMARY KEY,
 );
+
+CREATE TABLE characters_books (
+  
+);
