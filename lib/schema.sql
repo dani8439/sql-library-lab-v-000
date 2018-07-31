@@ -10,6 +10,11 @@ CREATE TABLE subgenres (
   name TEXT
 );
 
+CREATE TABLE authors (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+);
+
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
   name TEXT,
@@ -26,10 +31,7 @@ CREATE TABLE books (
   series_id INTEGER
 );
 
-CREATE TABLE authors (
-  id INTEGER PRIMARY KEY,
-  name TEXT
-);
+
 
 
 
